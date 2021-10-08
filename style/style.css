@@ -1,0 +1,42 @@
+nav{
+    height: 150px;
+}
+nav,.logo{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+.lien,.logo{
+    padding: 1em;
+}
+.lien{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+.fondDevis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../Images/photo-bandeau.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.Devis{
+
+    background-color: black;
+    opacity: 0.8;
+    color:white; 
+    height: 250px;  
+    width: 70%; 
+}

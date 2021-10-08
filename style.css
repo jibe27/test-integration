@@ -1,0 +1,9 @@
+div{
+    border: 1x solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo{
+    width: 50%;
+}
